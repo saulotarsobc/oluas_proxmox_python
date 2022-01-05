@@ -173,14 +173,6 @@ $.[?(@.storage == '{#STORAGE}')].maxdisk.first()
 $.[?(@.storage == '{#STORAGE}')].status.first()
 ```
 
-> filtros de contagem dos protótipos de itens tipo storage
-
-```js
-$.[?(@.storage == '{#STORAGE}')].disk.first()
-$.[?(@.storage == '{#STORAGE}')].maxdisk.first()
-$.[?(@.storage == '{#STORAGE}')].status.first()
-```
-
 > Alterando valores de retorno de status do node de available para 1
 
 ```js
